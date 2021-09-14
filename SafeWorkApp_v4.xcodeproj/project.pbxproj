@@ -3,30 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50D1D5626E1C4D100882278 /* JobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D1D5526E1C4D100882278 /* JobController.swift */; };
+		C50D1D5826E1C4DE00882278 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D1D5726E1C4DE00882278 /* JobView.swift */; };
+		C50D1D5A26E1D45B00882278 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D1D5926E1D45B00882278 /* SettingsController.swift */; };
+		C50D1D5C26E1D49F00882278 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D1D5B26E1D49F00882278 /* SettingsView.swift */; };
+		C50D1D5E26E1FF9700882278 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D1D5D26E1FF9700882278 /* TabBarController.swift */; };
+		C53F7AD326E88B8500C49D2B /* AddJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F7AD226E88B8500C49D2B /* AddJobView.swift */; };
+		C53F7AD526E88B9600C49D2B /* AddJobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F7AD426E88B9600C49D2B /* AddJobController.swift */; };
+		C55A067526DE092800BB8B14 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A067426DE092800BB8B14 /* SignUpController.swift */; };
+		C56F8BAD26D5C3DA00480811 /* Extensions_UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F8BAC26D5C3DA00480811 /* Extensions_UITextField.swift */; };
+		C58D589826EF37C6006FFA83 /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D589726EF37C6006FFA83 /* JobDetailView.swift */; };
+		C58D589A26EF37FE006FFA83 /* JobDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D589926EF37FE006FFA83 /* JobDetailController.swift */; };
+		C59BA5F426D4F95300D8D600 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BA5F326D4F95300D8D600 /* WelcomeView.swift */; };
+		C59BA5F626D4FB1200D8D600 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BA5F526D4FB1200D8D600 /* WelcomeController.swift */; };
+		C59BA5F826D4FC8400D8D600 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BA5F726D4FC8400D8D600 /* Extensions.swift */; };
 		C5A7B8D426CC8B8400AE240D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A7B8D326CC8B8400AE240D /* AppDelegate.swift */; };
 		C5A7B8D626CC8B8400AE240D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A7B8D526CC8B8400AE240D /* SceneDelegate.swift */; };
-		C5A7B8D826CC8B8400AE240D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A7B8D726CC8B8400AE240D /* ViewController.swift */; };
 		C5A7B8DD26CC8B8500AE240D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A7B8DC26CC8B8500AE240D /* Assets.xcassets */; };
 		C5A7B8E026CC8B8500AE240D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A7B8DE26CC8B8500AE240D /* LaunchScreen.storyboard */; };
 		C5CB910126CE2638002D03C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5CB910026CE2638002D03C9 /* GoogleService-Info.plist */; };
+		C5CB910326CE2DE6002D03C9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CB910226CE2DE6002D03C9 /* SignUpView.swift */; };
+		C5EB5FB226E6FB5300919323 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB5FB126E6FB5300919323 /* Job.swift */; };
+		C5FD396D26E0478F00CC250E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD396C26E0478F00CC250E /* LogInView.swift */; };
+		C5FD396F26E0479E00CC250E /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD396E26E0479E00CC250E /* LogInController.swift */; };
+		C5FD397D26E0767B00CC250E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD397C26E0767B00CC250E /* User.swift */; };
 		F0B9B895569DB9699AC757EF /* Pods_SafeWorkApp_v4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F3F2B9D34481706328A15 /* Pods_SafeWorkApp_v4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43561768BA70EBB525E70EF3 /* Pods-SafeWorkApp_v4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeWorkApp_v4.release.xcconfig"; path = "Target Support Files/Pods-SafeWorkApp_v4/Pods-SafeWorkApp_v4.release.xcconfig"; sourceTree = "<group>"; };
 		7CD02293DCA12EA30CA094E3 /* Pods-SafeWorkApp_v4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeWorkApp_v4.debug.xcconfig"; path = "Target Support Files/Pods-SafeWorkApp_v4/Pods-SafeWorkApp_v4.debug.xcconfig"; sourceTree = "<group>"; };
+		C50D1D5526E1C4D100882278 /* JobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobController.swift; sourceTree = "<group>"; };
+		C50D1D5726E1C4DE00882278 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		C50D1D5926E1D45B00882278 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		C50D1D5B26E1D49F00882278 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C50D1D5D26E1FF9700882278 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C53F7AD226E88B8500C49D2B /* AddJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobView.swift; sourceTree = "<group>"; };
+		C53F7AD426E88B9600C49D2B /* AddJobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobController.swift; sourceTree = "<group>"; };
+		C55A067426DE092800BB8B14 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		C56F8BAC26D5C3DA00480811 /* Extensions_UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions_UITextField.swift; sourceTree = "<group>"; };
+		C58D589726EF37C6006FFA83 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		C58D589926EF37FE006FFA83 /* JobDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailController.swift; sourceTree = "<group>"; };
+		C59BA5F326D4F95300D8D600 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C59BA5F526D4FB1200D8D600 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		C59BA5F726D4FC8400D8D600 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C5A7B8D026CC8B8400AE240D /* SafeWorkApp_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeWorkApp_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A7B8D326CC8B8400AE240D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5A7B8D526CC8B8400AE240D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5A7B8D726CC8B8400AE240D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5A7B8DC26CC8B8500AE240D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5A7B8DF26CC8B8500AE240D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5A7B8E126CC8B8500AE240D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5CB910026CE2638002D03C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5CB910226CE2DE6002D03C9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C5EB5FB126E6FB5300919323 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		C5FD396C26E0478F00CC250E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		C5FD396E26E0479E00CC250E /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		C5FD397C26E0767B00CC250E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E25F3F2B9D34481706328A15 /* Pods_SafeWorkApp_v4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeWorkApp_v4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,8 +84,67 @@
 				7CD02293DCA12EA30CA094E3 /* Pods-SafeWorkApp_v4.debug.xcconfig */,
 				43561768BA70EBB525E70EF3 /* Pods-SafeWorkApp_v4.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C56F8BAB26D5C39900480811 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C59BA5F726D4FC8400D8D600 /* Extensions.swift */,
+				C56F8BAC26D5C3DA00480811 /* Extensions_UITextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C59BA5ED26D4F53100D8D600 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD397026E04FCD00CC250E /* Model */,
+				C59BA5EE26D4F55200D8D600 /* View */,
+				C59BA5EF26D4F55E00D8D600 /* Controller */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		C59BA5EE26D4F55200D8D600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB910226CE2DE6002D03C9 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C59BA5EF26D4F55E00D8D600 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C55A067426DE092800BB8B14 /* SignUpController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C59BA5F026D4F91700D8D600 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				C59BA5F226D4F92300D8D600 /* View */,
+				C59BA5F126D4F91D00D8D600 /* Controller */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C59BA5F126D4F91D00D8D600 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C59BA5F526D4FB1200D8D600 /* WelcomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C59BA5F226D4F92300D8D600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C59BA5F326D4F95300D8D600 /* WelcomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C5A7B8C726CC8B8400AE240D = {
@@ -75,13 +170,91 @@
 			children = (
 				C5A7B8D326CC8B8400AE240D /* AppDelegate.swift */,
 				C5A7B8D526CC8B8400AE240D /* SceneDelegate.swift */,
-				C5A7B8D726CC8B8400AE240D /* ViewController.swift */,
-				C5A7B8DC26CC8B8500AE240D /* Assets.xcassets */,
+				C56F8BAB26D5C39900480811 /* Extensions */,
+				C59BA5F026D4F91700D8D600 /* Welcome */,
+				C59BA5ED26D4F53100D8D600 /* Sign Up */,
+				C5FD396926E0476600CC250E /* Log In */,
+				C5FD397526E0647F00CC250E /* Home */,
 				C5A7B8DE26CC8B8500AE240D /* LaunchScreen.storyboard */,
+				C5A7B8DC26CC8B8500AE240D /* Assets.xcassets */,
 				C5A7B8E126CC8B8500AE240D /* Info.plist */,
 				C5CB910026CE2638002D03C9 /* GoogleService-Info.plist */,
 			);
 			path = SafeWorkApp_v4;
+			sourceTree = "<group>";
+		};
+		C5EB5FB026E6FB4700919323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB5FB126E6FB5300919323 /* Job.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5FD396926E0476600CC250E /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD396A26E0477700CC250E /* View */,
+				C5FD396B26E0478000CC250E /* Controller */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		C5FD396A26E0477700CC250E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD396C26E0478F00CC250E /* LogInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5FD396B26E0478000CC250E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD396E26E0479E00CC250E /* LogInController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5FD397026E04FCD00CC250E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD397C26E0767B00CC250E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5FD397526E0647F00CC250E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5EB5FB026E6FB4700919323 /* Model */,
+				C5FD397626E0648E00CC250E /* View */,
+				C5FD397926E064A200CC250E /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C5FD397626E0648E00CC250E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C50D1D5726E1C4DE00882278 /* JobView.swift */,
+				C50D1D5B26E1D49F00882278 /* SettingsView.swift */,
+				C53F7AD226E88B8500C49D2B /* AddJobView.swift */,
+				C58D589726EF37C6006FFA83 /* JobDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5FD397926E064A200CC250E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C50D1D5D26E1FF9700882278 /* TabBarController.swift */,
+				C50D1D5526E1C4D100882278 /* JobController.swift */,
+				C50D1D5926E1D45B00882278 /* SettingsController.swift */,
+				C53F7AD426E88B9600C49D2B /* AddJobController.swift */,
+				C58D589926EF37FE006FFA83 /* JobDetailController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D09927077D2988E645185D7B /* Frameworks */ = {
@@ -206,9 +379,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A7B8D826CC8B8400AE240D /* ViewController.swift in Sources */,
+				C5FD396D26E0478F00CC250E /* LogInView.swift in Sources */,
+				C50D1D5E26E1FF9700882278 /* TabBarController.swift in Sources */,
+				C59BA5F626D4FB1200D8D600 /* WelcomeController.swift in Sources */,
+				C58D589826EF37C6006FFA83 /* JobDetailView.swift in Sources */,
+				C59BA5F426D4F95300D8D600 /* WelcomeView.swift in Sources */,
+				C55A067526DE092800BB8B14 /* SignUpController.swift in Sources */,
+				C5CB910326CE2DE6002D03C9 /* SignUpView.swift in Sources */,
+				C53F7AD326E88B8500C49D2B /* AddJobView.swift in Sources */,
+				C50D1D5C26E1D49F00882278 /* SettingsView.swift in Sources */,
+				C5FD397D26E0767B00CC250E /* User.swift in Sources */,
+				C50D1D5A26E1D45B00882278 /* SettingsController.swift in Sources */,
 				C5A7B8D426CC8B8400AE240D /* AppDelegate.swift in Sources */,
+				C50D1D5826E1C4DE00882278 /* JobView.swift in Sources */,
+				C56F8BAD26D5C3DA00480811 /* Extensions_UITextField.swift in Sources */,
 				C5A7B8D626CC8B8400AE240D /* SceneDelegate.swift in Sources */,
+				C58D589A26EF37FE006FFA83 /* JobDetailController.swift in Sources */,
+				C50D1D5626E1C4D100882278 /* JobController.swift in Sources */,
+				C5EB5FB226E6FB5300919323 /* Job.swift in Sources */,
+				C5FD396F26E0479E00CC250E /* LogInController.swift in Sources */,
+				C53F7AD526E88B9600C49D2B /* AddJobController.swift in Sources */,
+				C59BA5F826D4FC8400D8D600 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
